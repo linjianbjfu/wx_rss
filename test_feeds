@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>My Feed Title</title>
+        <link>http://example.com/</link>
+        <description>This is my personal feed!</description>
+        <lastBuildDate>Sat, 13 Jul 2013 16:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>awesome</generator>
+        <language>en</language>
+        <image>
+            <title>My Feed Title</title>
+            <url>http://example.com/image.png</url>
+            <link>http://example.com/</link>
+        </image>
+        <item>
+            <title><![CDATA[精心设计的 DNS Failover 策略在 Go 中竟然带来了反效果，发生了什么？]]></title>
+            <link>http://mp.weixin.qq.com/s?__biz=Mzg3Njc0NTgwMg==&amp;mid=2247498366&amp;idx=1&amp;sn=6524781738ad6352aa85d46286872c3a&amp;chksm=cf2f3f5bf858b64d28600e9f31166de0427f7d3d47ee7ff04cc745ded45f9ea1910043e7e784#rd</link>
+            <guid>2247498366_1</guid>
+            <pubDate>Mon, 19 Feb 2024 13:00:51 GMT</pubDate>
+            <description><![CDATA[Go net 库中提供了两种解析逻辑：自实现的内置解析器和系统提供的解析函数。windows 、darwin(MacOS等)优先使用系统提供 的解析函数，常见的 Debain、Centos 等优先使用内置解析器。 == End description ===]]></description>
+            <content:encoded><![CDATA[=== test content ===]]></content:encoded>
+            <enclosure url="https://mmbiz.qpic.cn/mmbiz_jpg/1BMf5Ir754RFIjDhHyCfk6jU6tYC7ggjiaw1HmoxnrYvNpOZaJ41iaQA0lBXaFCPUzYibXyU4Pk3ARGSkahB5zPIA/0?wx_fmt=jpeg" length="0" type="image//mmbiz_jpg/1BMf5Ir754RFIjDhHyCfk6jU6tYC7ggjiaw1HmoxnrYvNpOZaJ41iaQA0lBXaFCPUzYibXyU4Pk3ARGSkahB5zPIA/0"/>
+        </item>
+    </channel>
+</rss>
